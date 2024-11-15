@@ -15,6 +15,8 @@ export default function Home() {
 				{/* sample03 */}
 				<Link href="/sample03">sample03</Link>
 				<br />
+				{/* sample04 */}
+				<Link href="/sample04">sample04</Link>
 				<br />
 				<br />
 				<br />
