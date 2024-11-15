@@ -3,6 +3,19 @@ import Link from "next/link";
 export default function Home() {
   return (
 			<div className="">
+				{/* Dashboard */}
+				<Link href="/dashboard">Dashboard</Link>
+				<br />
+				{/* sample01 */}
+				<Link href="/sample01">sample01</Link>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
 				Shadcn/UIのサイドバーコンポーネント
 				<br />
 				<Link href="/01">01へのリンク</Link>
