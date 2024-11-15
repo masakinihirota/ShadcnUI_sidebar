@@ -1,7 +1,10 @@
-import { AppSidebar } from "@/components/app-sidebar_01";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+import { AppSidebar } from "@/components/app-sidebar_08";
+
+export default async function Layout({
+	children,
+}: { children: React.ReactNode }) {
 	return (
 		<SidebarProvider>
 			<AppSidebar />
