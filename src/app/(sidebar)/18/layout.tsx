@@ -1,4 +1,4 @@
-import { AppSidebar } from "@/components/app-sidebar_01";
+import { AppSidebar, NavProjectsSkeleton } from "@/components/app-sidebar_18";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -7,6 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 			<AppSidebar />
 			<main>
 				<SidebarTrigger />
+				<NavProjectsSkeleton />
 				{children}
 			</main>
 		</SidebarProvider>
