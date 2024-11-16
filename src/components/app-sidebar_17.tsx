@@ -13,6 +13,7 @@ import {
 	SidebarMenuSubButton,
 	SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@radix-ui/react-collapsible"
 
 // This is sample data.
 const data = {
@@ -178,26 +179,33 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
 			<SidebarContent>
 				<SidebarGroup>
 					<SidebarMenu className="gap-2">
-						{data.navMain.map((item) => (
-							<SidebarMenuItem key={item.title}>
-								<SidebarMenuButton asChild>
-									<a href={item.url} className="font-medium">
-										{item.title}
-									</a>
-								</SidebarMenuButton>
-								{item.items?.length ? (
-									<SidebarMenuSub className="ml-0 border-l-0 px-1.5">
-										{item.items.map((item) => (
-											<SidebarMenuSubItem key={item.title}>
-												<SidebarMenuSubButton asChild isActive={item.isActive}>
-													<a href={item.url}>{item.title}</a>
-												</SidebarMenuSubButton>
-											</SidebarMenuSubItem>
-										))}
-									</SidebarMenuSub>
-								) : null}
-							</SidebarMenuItem>
-						))}
+						<Collapsible defaultOpen className="group/collapsible">
+							{data.navMain.map((item) => (
+								<SidebarMenuItem key={item.title}>
+									<CollapsibleTrigger asChild>
+										<SidebarMenuButton asChild>
+											<a href={item.url} className="font-medium">
+												{item.title}
+											</a>
+										</SidebarMenuButton>
+									</CollapsibleTrigger>
+
+									{item.items?.length ? (
+										<SidebarMenuSub className="ml-0 border-l-0 px-1.5">
+											{item.items.map((item) => (
+												<SidebarMenuSubItem key={item.title}>
+													<CollapsibleContent>
+														<SidebarMenuSubButton asChild isActive={item.isActive}>
+															<a href={item.url}>{item.title}</a>
+														</SidebarMenuSubButton>
+													</CollapsibleContent>
+												</SidebarMenuSubItem>
+											))}
+										</SidebarMenuSub>
+									) : null}
+								</SidebarMenuItem>
+							))}
+						</Collapsible>
 					</SidebarMenu>
 				</SidebarGroup>
 			</SidebarContent>
