@@ -3,9 +3,10 @@ import Link from "next/link";
 export default function Home() {
   return (
 			<div className="">
-				{/* Dashboard */}
+				{/* Dashboard デフォルトでのインストール場所 */}
 				<Link href="/dashboard">Dashboard</Link>
 				<br />
+				{/* 公式サンプルに対応 */}
 				{/* sample01 */}
 				<Link href="/sample01">sample01</Link>
 				<br />
@@ -39,29 +40,21 @@ export default function Home() {
 				{/* sample11 */}
 				<Link href="/sample11">sample11</Link>
 				<br />
+				{/* sample12 */}
 				<Link href="/sample12">sample12</Link>
 				<br />
+				{/* sample13 */}
 				<Link href="/sample13">sample13</Link>
 				<br />
+				{/* sample14 */}
 				<Link href="/sample14">sample14</Link>
 				<br />
+				{/* sample15 */}
 				<Link href="/sample15">sample15</Link>
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				Shadcn/UIのサイドバーコンポーネント
+				自分が試した、Shadcn/UIのサイドバーコンポーネント
 				<br />
 				<Link href="/01">01へのリンク</Link>
 				<br />
