@@ -40,33 +40,19 @@ export default function Home() {
 			<br />
 			<Link href="/16">16へのリンク サブメニューの使用方法</Link>
 			<br />
-			<Link href="/17">X 17へのリンク サブメニューの折りたたみ</Link>
+			<Link href="/17">17へのリンク サブメニューの折りたたみ</Link>
 			<br />
 			<Link href="/18">X 18へのリンク スケルトン</Link>
 			<br />
-			<Link href="/19">19へのリンク</Link>
+			<Link href="/19">19へのリンク サイドバートリガー</Link>
 			<br />
-			<Link href="/20">20へのリンク</Link>
+			<Link href="/20">20へのリンク カスタムトリガー</Link>
 			<br />
-			<Link href="/21">21へのリンク</Link>
+			<Link href="/21">21へのリンク サイドバーレール</Link>
 			<br />
-			<Link href="/22">22へのリンク</Link>
+			<Link href="/22">22へのリンク データフェッチ</Link>
 			<br />
-			<Link href="/23">23へのリンク</Link>
-			<br />
-			<Link href="/24">24へのリンク</Link>
-			<br />
-			<Link href="/25">25へのリンク</Link>
-			<br />
-			<Link href="/26">26へのリンク</Link>
-			<br />
-			<Link href="/27">27へのリンク</Link>
-			<br />
-			<Link href="/28">28へのリンク</Link>
-			<br />
-			<Link href="/29">29へのリンク</Link>
-			<br />
-			<Link href="/30"> 30へのリンク</Link>
+			<Link href="/23">X 23へのリンク</Link>
 			<br />
 			<br />
 			<br />

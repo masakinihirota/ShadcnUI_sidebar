@@ -37,7 +37,6 @@ async function NavProjects() {
   )
 }
 
-
 export function AppSidebar() {
 	return (
 		<Sidebar>
