@@ -10,7 +10,7 @@ import {
 	DropdownMenuTrigger,
 } from "@radix-ui/react-dropdown-menu";
 
-import { Home, MoreHorizontal, Plus, Sidebar } from "lucide-react";
+import { Home, MoreHorizontal } from "lucide-react";
 
 export function AppSidebar() {
 	return (

@@ -1,10 +1,11 @@
 import {
+	Sidebar,
 	SidebarMenuAction,
 	SidebarMenuButton,
 	SidebarMenuItem,
 } from "@/components/ui/sidebar";
 
-import { Home, Plus, Sidebar } from "lucide-react";
+import { Home, Plus } from "lucide-react";
 
 export function AppSidebar() {
 	return (

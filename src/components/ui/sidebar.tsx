@@ -71,7 +71,9 @@ const SidebarProvider = React.forwardRef<
     const [openMobile, setOpenMobile] = React.useState(false)
 
     // This is the internal state of the sidebar.
+    // ja: これはサイドバーの内部状態です。
     // We use openProp and setOpenProp for control from outside the component.
+    // ja: openPropとsetOpenPropはコンポーネントの外部からの制御に使用します。
     const [_open, _setOpen] = React.useState(defaultOpen)
     const open = openProp ?? _open
     const setOpen = React.useCallback(

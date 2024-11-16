@@ -1,4 +1,5 @@
 import {
+	Sidebar,
 	SidebarContent,
 	SidebarGroup,
 	SidebarGroupContent,
@@ -7,8 +8,6 @@ import {
 	SidebarMenuButton,
 	SidebarMenuItem,
 } from "@/components/ui/sidebar";
-
-import { Sidebar } from "lucide-react";
 
 const projects = [
 	{

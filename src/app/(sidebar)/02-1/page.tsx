@@ -6,7 +6,7 @@ const page = () => {
 			{/* ホームへのリンク */}
 			<a href="/">Home</a>
 			<br />
-			page 16
+			page 02
 		</div>
 	);
 };

@@ -1,13 +1,17 @@
-import { AppSidebar, NavProjectsSkeleton } from "@/components/app-sidebar_18";
+import { AppSidebar } from "@/components/app-sidebar_01";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-	return (
+  // このLayoutファイルではサイドバーのメニュー等を表示、操作するだけです。
+  // サイドバーの中の機能はapp-sidebar_**.tsxに書かれています。
+  return (
+      // Shadcn/UIのサイドバーを使うために必ず必要です。
 		<SidebarProvider>
+        {/* サイドバーの中身 */}
 			<AppSidebar />
 			<main>
-				<SidebarTrigger />
-				<NavProjectsSkeleton />
+          {/* サイドバーのトリガー */}
+          <SidebarTrigger />
 				{children}
 			</main>
 		</SidebarProvider>
