@@ -8,9 +8,9 @@ export default function Home() {
 			<br />
 			<Link href="/01">01へのリンク 基本メニュー</Link>
 			<br />
-			<Link href="/02-1">02へのリンク 空メニュー</Link>
+			<Link href="/02-1">02-1へのリンク 空メニュー</Link>
 			<br />
-			<Link href="/02-2">02へのリンク フルメニュー</Link>
+			<Link href="/02-2">02-2へのリンク フルメニュー</Link>
 			<br />
 			<Link href="/03">03へのリンク 開閉記憶</Link>
 			<br />
