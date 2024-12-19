@@ -12,7 +12,7 @@ export default function Home() {
 			<br />
 			<Link href="/02-2">02-2へのリンク フルメニュー</Link>
 			<br />
-			<Link href="/03">03へのリンク 開閉記憶</Link>
+			<Link href="/03">03へのリンク 開閉を記憶</Link>
 			<br />
 			<Link href="/04">04へのリンク 左/右:開閉位置の変更</Link>
 			<br />
@@ -42,7 +42,9 @@ export default function Home() {
 			<br />
 			<Link href="/17">17へのリンク サブメニューの折りたたみ</Link>
 			<br />
-			<Link href="/18">X 18へのリンク スケルトン</Link>
+			<Link href="/18">18へのリンク スケルトン</Link>
+			<br />
+			<Link href="/18-2">18-2へのリンク セパレーター</Link>
 			<br />
 			<Link href="/19">19へのリンク サイドバートリガー</Link>
 			<br />
